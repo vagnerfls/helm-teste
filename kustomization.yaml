@@ -8,6 +8,6 @@ helmCharts:
   - name: helm
     releaseName: helm-demo
     version: 0.1.0
-    repo: https://vagnerfls.github.io/helm/
+    repo: https://gitlab.sefaz.pe.gov.br/GSDS/gitops/charts-helm/
     additionalValuesFiles:
       - values.yaml
