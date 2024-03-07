@@ -3,3 +3,9 @@ kind: Kustomization
 
 resources:
   - cm.yaml
+
+helmCharts:
+  - name: helm
+    releaseName: helm-demo
+    version: 0.1.0
+    repo: https://github.com/vagnerfls/helm.git
