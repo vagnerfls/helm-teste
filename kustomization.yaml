@@ -6,5 +6,5 @@ helmCharts:
     version: 0.1.0
     releaseName: vfls
     repo: https://vagnerfls.github.io/helm/
-    additionalValuesFiles:
-      - values.yaml
+    # additionalValuesFiles:
+    #   - values.yaml
